@@ -1,0 +1,11 @@
+ServerHostname=localhost
+ServerPort=6789
+DBConnection=jdbc:mysql://google/test?cloudSqlInstance=cs201silcproject:us-west1:cs201group&socketFactory=com.google.cloud.sql.mysql.SocketFactory&useSSL=false
+DBUsername=cs201SilCgroup
+DBPassword=password
+SecretWordFile=hangmanwords.txt
+
+
+
+
+
