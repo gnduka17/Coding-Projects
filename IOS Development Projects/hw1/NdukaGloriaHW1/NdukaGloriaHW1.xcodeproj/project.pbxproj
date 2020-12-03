@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59214B67231EFEF4008A9F1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59214B66231EFEF4008A9F1D /* AppDelegate.swift */; };
+		59214B69231EFEF4008A9F1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59214B68231EFEF4008A9F1D /* ViewController.swift */; };
+		59214B6C231EFEF4008A9F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59214B6A231EFEF4008A9F1D /* Main.storyboard */; };
+		59214B6E231EFEF6008A9F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59214B6D231EFEF6008A9F1D /* Assets.xcassets */; };
+		59214B71231EFEF6008A9F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59214B6F231EFEF6008A9F1D /* LaunchScreen.storyboard */; };
+		59214B7C231EFEF6008A9F1D /* NdukaGloriaHW1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59214B7B231EFEF6008A9F1D /* NdukaGloriaHW1Tests.swift */; };
+		59214B87231EFEF6008A9F1D /* NdukaGloriaHW1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59214B86231EFEF6008A9F1D /* NdukaGloriaHW1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59214B78231EFEF6008A9F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59214B5B231EFEF4008A9F1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59214B62231EFEF4008A9F1D;
+			remoteInfo = NdukaGloriaHW1;
+		};
+		59214B83231EFEF6008A9F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59214B5B231EFEF4008A9F1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59214B62231EFEF4008A9F1D;
+			remoteInfo = NdukaGloriaHW1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59214B63231EFEF4008A9F1D /* NdukaGloriaHW1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NdukaGloriaHW1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59214B66231EFEF4008A9F1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59214B68231EFEF4008A9F1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59214B6B231EFEF4008A9F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59214B6D231EFEF6008A9F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59214B70231EFEF6008A9F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59214B72231EFEF6008A9F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59214B77231EFEF6008A9F1D /* NdukaGloriaHW1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NdukaGloriaHW1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59214B7B231EFEF6008A9F1D /* NdukaGloriaHW1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NdukaGloriaHW1Tests.swift; sourceTree = "<group>"; };
+		59214B7D231EFEF6008A9F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59214B82231EFEF6008A9F1D /* NdukaGloriaHW1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NdukaGloriaHW1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59214B86231EFEF6008A9F1D /* NdukaGloriaHW1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NdukaGloriaHW1UITests.swift; sourceTree = "<group>"; };
+		59214B88231EFEF6008A9F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59214B60231EFEF4008A9F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59214B74231EFEF6008A9F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59214B7F231EFEF6008A9F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59214B5A231EFEF4008A9F1D = {
+			isa = PBXGroup;
+			children = (
+				59214B65231EFEF4008A9F1D /* NdukaGloriaHW1 */,
+				59214B7A231EFEF6008A9F1D /* NdukaGloriaHW1Tests */,
+				59214B85231EFEF6008A9F1D /* NdukaGloriaHW1UITests */,
+				59214B64231EFEF4008A9F1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59214B64231EFEF4008A9F1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59214B63231EFEF4008A9F1D /* NdukaGloriaHW1.app */,
+				59214B77231EFEF6008A9F1D /* NdukaGloriaHW1Tests.xctest */,
+				59214B82231EFEF6008A9F1D /* NdukaGloriaHW1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59214B65231EFEF4008A9F1D /* NdukaGloriaHW1 */ = {
+			isa = PBXGroup;
+			children = (
+				59214B66231EFEF4008A9F1D /* AppDelegate.swift */,
+				59214B68231EFEF4008A9F1D /* ViewController.swift */,
+				59214B6A231EFEF4008A9F1D /* Main.storyboard */,
+				59214B6D231EFEF6008A9F1D /* Assets.xcassets */,
+				59214B6F231EFEF6008A9F1D /* LaunchScreen.storyboard */,
+				59214B72231EFEF6008A9F1D /* Info.plist */,
+			);
+			path = NdukaGloriaHW1;
+			sourceTree = "<group>";
+		};
+		59214B7A231EFEF6008A9F1D /* NdukaGloriaHW1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				59214B7B231EFEF6008A9F1D /* NdukaGloriaHW1Tests.swift */,
+				59214B7D231EFEF6008A9F1D /* Info.plist */,
+			);
+			path = NdukaGloriaHW1Tests;
+			sourceTree = "<group>";
+		};
+		59214B85231EFEF6008A9F1D /* NdukaGloriaHW1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				59214B86231EFEF6008A9F1D /* NdukaGloriaHW1UITests.swift */,
+				59214B88231EFEF6008A9F1D /* Info.plist */,
+			);
+			path = NdukaGloriaHW1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59214B62231EFEF4008A9F1D /* NdukaGloriaHW1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59214B8B231EFEF6008A9F1D /* Build configuration list for PBXNativeTarget "NdukaGloriaHW1" */;
+			buildPhases = (
+				59214B5F231EFEF4008A9F1D /* Sources */,
+				59214B60231EFEF4008A9F1D /* Frameworks */,
+				59214B61231EFEF4008A9F1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NdukaGloriaHW1;
+			productName = NdukaGloriaHW1;
+			productReference = 59214B63231EFEF4008A9F1D /* NdukaGloriaHW1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59214B76231EFEF6008A9F1D /* NdukaGloriaHW1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59214B8E231EFEF6008A9F1D /* Build configuration list for PBXNativeTarget "NdukaGloriaHW1Tests" */;
+			buildPhases = (
+				59214B73231EFEF6008A9F1D /* Sources */,
+				59214B74231EFEF6008A9F1D /* Frameworks */,
+				59214B75231EFEF6008A9F1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59214B79231EFEF6008A9F1D /* PBXTargetDependency */,
+			);
+			name = NdukaGloriaHW1Tests;
+			productName = NdukaGloriaHW1Tests;
+			productReference = 59214B77231EFEF6008A9F1D /* NdukaGloriaHW1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59214B81231EFEF6008A9F1D /* NdukaGloriaHW1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59214B91231EFEF6008A9F1D /* Build configuration list for PBXNativeTarget "NdukaGloriaHW1UITests" */;
+			buildPhases = (
+				59214B7E231EFEF6008A9F1D /* Sources */,
+				59214B7F231EFEF6008A9F1D /* Frameworks */,
+				59214B80231EFEF6008A9F1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59214B84231EFEF6008A9F1D /* PBXTargetDependency */,
+			);
+			name = NdukaGloriaHW1UITests;
+			productName = NdukaGloriaHW1UITests;
+			productReference = 59214B82231EFEF6008A9F1D /* NdukaGloriaHW1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59214B5B231EFEF4008A9F1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Gloria Nduka";
+				TargetAttributes = {
+					59214B62231EFEF4008A9F1D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					59214B76231EFEF6008A9F1D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 59214B62231EFEF4008A9F1D;
+					};
+					59214B81231EFEF6008A9F1D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 59214B62231EFEF4008A9F1D;
+					};
+				};
+			};
+			buildConfigurationList = 59214B5E231EFEF4008A9F1D /* Build configuration list for PBXProject "NdukaGloriaHW1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59214B5A231EFEF4008A9F1D;
+			productRefGroup = 59214B64231EFEF4008A9F1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59214B62231EFEF4008A9F1D /* NdukaGloriaHW1 */,
+				59214B76231EFEF6008A9F1D /* NdukaGloriaHW1Tests */,
+				59214B81231EFEF6008A9F1D /* NdukaGloriaHW1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59214B61231EFEF4008A9F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59214B71231EFEF6008A9F1D /* LaunchScreen.storyboard in Resources */,
+				59214B6E231EFEF6008A9F1D /* Assets.xcassets in Resources */,
+				59214B6C231EFEF4008A9F1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59214B75231EFEF6008A9F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59214B80231EFEF6008A9F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59214B5F231EFEF4008A9F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59214B69231EFEF4008A9F1D /* ViewController.swift in Sources */,
+				59214B67231EFEF4008A9F1D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59214B73231EFEF6008A9F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59214B7C231EFEF6008A9F1D /* NdukaGloriaHW1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59214B7E231EFEF6008A9F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59214B87231EFEF6008A9F1D /* NdukaGloriaHW1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59214B79231EFEF6008A9F1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59214B62231EFEF4008A9F1D /* NdukaGloriaHW1 */;
+			targetProxy = 59214B78231EFEF6008A9F1D /* PBXContainerItemProxy */;
+		};
+		59214B84231EFEF6008A9F1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59214B62231EFEF4008A9F1D /* NdukaGloriaHW1 */;
+			targetProxy = 59214B83231EFEF6008A9F1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59214B6A231EFEF4008A9F1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59214B6B231EFEF4008A9F1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59214B6F231EFEF6008A9F1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59214B70231EFEF6008A9F1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59214B89231EFEF6008A9F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59214B8A231EFEF6008A9F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59214B8C231EFEF6008A9F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NdukaGloriaHW1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.nduka.NdukaGloriaHW1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59214B8D231EFEF6008A9F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NdukaGloriaHW1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.nduka.NdukaGloriaHW1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59214B8F231EFEF6008A9F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NdukaGloriaHW1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.nduka.NdukaGloriaHW1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NdukaGloriaHW1.app/NdukaGloriaHW1";
+			};
+			name = Debug;
+		};
+		59214B90231EFEF6008A9F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NdukaGloriaHW1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.nduka.NdukaGloriaHW1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NdukaGloriaHW1.app/NdukaGloriaHW1";
+			};
+			name = Release;
+		};
+		59214B92231EFEF6008A9F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NdukaGloriaHW1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.nduka.NdukaGloriaHW1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NdukaGloriaHW1;
+			};
+			name = Debug;
+		};
+		59214B93231EFEF6008A9F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NdukaGloriaHW1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.nduka.NdukaGloriaHW1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NdukaGloriaHW1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59214B5E231EFEF4008A9F1D /* Build configuration list for PBXProject "NdukaGloriaHW1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59214B89231EFEF6008A9F1D /* Debug */,
+				59214B8A231EFEF6008A9F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59214B8B231EFEF6008A9F1D /* Build configuration list for PBXNativeTarget "NdukaGloriaHW1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59214B8C231EFEF6008A9F1D /* Debug */,
+				59214B8D231EFEF6008A9F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59214B8E231EFEF6008A9F1D /* Build configuration list for PBXNativeTarget "NdukaGloriaHW1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59214B8F231EFEF6008A9F1D /* Debug */,
+				59214B90231EFEF6008A9F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59214B91231EFEF6008A9F1D /* Build configuration list for PBXNativeTarget "NdukaGloriaHW1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59214B92231EFEF6008A9F1D /* Debug */,
+				59214B93231EFEF6008A9F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59214B5B231EFEF4008A9F1D /* Project object */;
+}

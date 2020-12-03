@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NdukaGloriaHW1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="N8g-R7-5e2">
+                                <rect key="frame" x="31" y="354.5" width="258" height="205.5"/>
+                                <color key="backgroundColor" red="1" green="0.077932088760000004" blue="0.78063488469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">I am a Computer Science major at USC. This is going to be my 3rd year at USC. I love to sing and play basketball. I am a very busy woman.</string>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="realpichw1" translatesAutoresizingMaskIntoConstraints="NO" id="qPA-e5-e3V">
+                                <rect key="frame" x="16" y="110" width="288" height="228.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gloria Nduka" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Ev9-JU-ffM">
+                                <rect key="frame" x="10" y="30" width="300" height="48"/>
+                                <color key="backgroundColor" red="0.4300808774494308" green="0.73104665317361217" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Jd3-01-ONH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qPA-e5-e3V" firstAttribute="top" secondItem="Ev9-JU-ffM" secondAttribute="bottom" constant="32" id="1dz-aa-v0T"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ev9-JU-ffM" secondAttribute="trailing" constant="10" id="5Sk-2K-27S"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qPA-e5-e3V" secondAttribute="trailing" constant="16" id="EC6-t8-JFj"/>
+                            <constraint firstItem="Ev9-JU-ffM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="MY2-J7-2Ly"/>
+                            <constraint firstItem="Ev9-JU-ffM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="PDf-rA-cHP"/>
+                            <constraint firstItem="qPA-e5-e3V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Scp-Y1-md4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N8g-R7-5e2" secondAttribute="bottom" constant="8" id="TZK-mf-bsT"/>
+                            <constraint firstItem="N8g-R7-5e2" firstAttribute="top" secondItem="qPA-e5-e3V" secondAttribute="bottom" constant="16" id="ch2-zs-bHh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N8g-R7-5e2" secondAttribute="trailing" constant="31" id="ez9-h2-77B"/>
+                            <constraint firstItem="N8g-R7-5e2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="iFl-yT-Mam"/>
+                            <constraint firstItem="N8g-R7-5e2" firstAttribute="height" secondItem="qPA-e5-e3V" secondAttribute="height" multiplier="0.9" id="w2g-qP-ImR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="realpichw1" width="200" height="200"/>
+    </resources>
+</document>

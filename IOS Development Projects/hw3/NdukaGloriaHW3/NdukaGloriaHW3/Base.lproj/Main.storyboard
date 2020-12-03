@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NdukaGloriaHW3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which Dessert Do You Prefer?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="q5o-Ej-K98">
+                                <rect key="frame" x="14" y="21" width="348" height="29.5"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="1" green="0.90798258440000001" blue="0.073775819510000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K1g-OS-uOm">
+                                <rect key="frame" x="21" y="58.5" width="334" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="cJY-sd-xqg"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="donePressed:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="lTW-Cp-4HK"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2R-Vo-g7I">
+                                <rect key="frame" x="70" y="109.5" width="235" height="168"/>
+                                <color key="backgroundColor" red="0.40967479057644773" green="0.4333943280384529" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" image="HW3icecream"/>
+                                <connections>
+                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C7C-tE-LGY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ie-hm-gfO">
+                                <rect key="frame" x="20" y="602" width="335" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.90798258440000001" blue="0.073775819510000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="x0p-hf-c9v"/>
+                                </constraints>
+                                <state key="normal" title="RESET"/>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NOM-5f-aHT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bm9-0V-d1F">
+                                <rect key="frame" x="20" y="469.5" width="335" height="117.5"/>
+                                <color key="backgroundColor" red="0.4020991001" green="0.40228303110000002" blue="0.39060976339999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.90798258440000001" blue="0.073775819510000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGJ-fx-pfo">
+                                <rect key="frame" x="70" y="293.5" width="235" height="168"/>
+                                <color key="backgroundColor" red="0.46741392922230607" green="1" blue="0.35556211657944947" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" image="HW3Boba"/>
+                                <connections>
+                                    <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t0y-I5-rlY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4020991001" green="0.40228303110000002" blue="0.39060976339999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K1g-OS-uOm" secondAttribute="trailing" constant="20" id="5RH-Sw-eFO"/>
+                            <constraint firstItem="6ie-hm-gfO" firstAttribute="top" secondItem="Bm9-0V-d1F" secondAttribute="bottom" constant="15" id="5WO-Jy-C3T"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6ie-hm-gfO" secondAttribute="bottom" constant="15" id="CuJ-QD-zOE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bm9-0V-d1F" secondAttribute="trailing" constant="20" id="Dhe-ah-ifg"/>
+                            <constraint firstItem="Bm9-0V-d1F" firstAttribute="top" secondItem="xGJ-fx-pfo" secondAttribute="bottom" constant="8" id="IO8-Xl-pE3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xGJ-fx-pfo" secondAttribute="trailing" constant="70" id="L2r-Uy-Rl1"/>
+                            <constraint firstItem="xGJ-fx-pfo" firstAttribute="height" secondItem="L2R-Vo-g7I" secondAttribute="height" id="OY6-RS-pQR"/>
+                            <constraint firstItem="q5o-Ej-K98" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="14" id="PZ4-4y-reL"/>
+                            <constraint firstItem="Bm9-0V-d1F" firstAttribute="height" secondItem="L2R-Vo-g7I" secondAttribute="height" multiplier="0.7" id="Ree-rb-bde"/>
+                            <constraint firstItem="xGJ-fx-pfo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="SFe-s0-ZHK"/>
+                            <constraint firstItem="K1g-OS-uOm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="ZKb-oH-EXi"/>
+                            <constraint firstItem="K1g-OS-uOm" firstAttribute="top" secondItem="q5o-Ej-K98" secondAttribute="bottom" constant="8" id="abB-CZ-mwU"/>
+                            <constraint firstItem="xGJ-fx-pfo" firstAttribute="top" secondItem="L2R-Vo-g7I" secondAttribute="bottom" constant="16" id="fQd-7n-EAA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="L2R-Vo-g7I" secondAttribute="trailing" constant="70" id="g2P-hk-PAR"/>
+                            <constraint firstItem="Bm9-0V-d1F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lG9-1D-Aop"/>
+                            <constraint firstItem="L2R-Vo-g7I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="lL3-gZ-NDG"/>
+                            <constraint firstItem="6ie-hm-gfO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="s9B-NF-O7G"/>
+                            <constraint firstItem="q5o-Ej-K98" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="1" id="tEj-7L-ml0"/>
+                            <constraint firstItem="L2R-Vo-g7I" firstAttribute="top" secondItem="K1g-OS-uOm" secondAttribute="bottom" constant="16" id="tY9-ea-ewu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q5o-Ej-K98" secondAttribute="trailing" constant="13" id="wTo-x2-GBY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6ie-hm-gfO" secondAttribute="trailing" constant="20" id="xwl-7e-FRr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="HNO-HB-xJc" appends="YES" id="npO-6D-v11"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="bobabutton" destination="xGJ-fx-pfo" id="rKM-pf-z1P"/>
+                        <outlet property="icecreambutton" destination="L2R-Vo-g7I" id="eMY-mY-q7s"/>
+                        <outlet property="inputName" destination="K1g-OS-uOm" id="Eup-Em-UVv"/>
+                        <outlet property="outputlabel" destination="Bm9-0V-d1F" id="4Ds-TK-G1x"/>
+                        <outlet property="questionLabel" destination="q5o-Ej-K98" id="qbQ-Wo-oj9"/>
+                        <outlet property="resetButton" destination="6ie-hm-gfO" id="5f7-o9-pkX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="HNO-HB-xJc">
+                    <connections>
+                        <action selector="keyboardLeaveBackgroundTap:" destination="BYZ-38-t0r" id="9lj-JL-L72"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HW3Boba" width="200" height="200"/>
+        <image name="HW3icecream" width="200" height="200"/>
+    </resources>
+</document>
