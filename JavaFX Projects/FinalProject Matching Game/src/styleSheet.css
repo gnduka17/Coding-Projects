@@ -1,0 +1,48 @@
+/* @font-face
+{
+    -fx-font-family: 'Shojumaru-Regular';
+    src: url('Shojumaru-Regular.ttf');
+    
+} */
+/* .titletext{
+	 -fx-font-family:"Shojumaru-Regular";
+}
+ */
+ .fonttext{
+ 	-fx-font-family:"Chalkduster", fantasy;
+ 	-fx-color:red;
+ }
+.wholePane{
+	-fx-background-color: #2c7873;
+}
+.tablecolor{
+	-fx-fill: #021c1e;
+}
+.cardColor{
+	-fx-fill:#6fb98f;
+	
+}
+.strokeColorInside{
+	-fx-stroke:yellow;
+}
+.strokeColorOutside{
+	-fx-stroke:#6fb98f;
+}
+.card{
+	-fx-border-radius: 25px;
+	-fx-background-image:url("playingCards.png");
+	/* -fx-fill: red; */
+}
+
+.label{
+	-fx-font-size: 40px;
+}
+.border{
+	-fx-fill: transparent;
+    -fx-stroke: black;
+    -fx-stroke-width: 2;
+}
+.button{
+	-fx-background-color:#004445;
+	-fx-color:#021c1e;
+}
