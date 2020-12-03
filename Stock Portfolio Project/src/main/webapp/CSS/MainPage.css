@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+ 	--silver: #c3c3c3;
+ 	--silver-matallic: #aba8b2;
+ 	--spanish-gray: #949396;
+ 	--darker-gray: #666666;
+ 	--navy: #4c4b63;
+ 	--united-nations-blue: #5386e4;
+ 	--darker-blue: #4776cc;
+}
+
+body{
+	background-color: var(--silver);
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	margin: 0;
+}
+
+.navbar {
+	background-color: #787878;
+}
+
+.navbar-brand {
+	font-weight: 400;
+	font-size: 24px !important;
+}
+
+.navbar, .navbar-brand {
+	font-family: 'Raleway', sans-serif;
+}
+
+#navbarNav {
+	padding-top: 10px;
+	margin: 0;
+}
+
+.nav-item span, .nav-item a {
+	font-size: 18px;
+	font-weight: 400;
+	padding: 8px;
+	margin: 0;
+}
+
+#logoutForm {
+	margin: 0;
+	padding: 0;
+}
+
+#logout_button {
+	background-color: #787878 !important;
+	border: none !important;
+	outline: none !important;
+   	box-shadow: none;
+   	cursor: pointer;
+   	font-size: 18px;
+	font-weight: 400;
+	margin: 0;
+}
+
+#graph {
+	padding: 10px;
+	min-width: 500px;
+	min-height: 400px;
+	max-height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#stockLine {
+	min-width: 500px;
+	max-width: 1500px;
+	min-height: 300px;
+	max-height: 700px;
+}
+
+#hiddenGraphInfoTable th, #hiddenGraphInfoTable td {
+	font-size: 2px;
+	color: white;
+}
+
+#addRemoveDays {
+	display: flex;
+	justify-content: center;
+}
+
+#addRemoveDays button {
+	font-family: 'Raleway', sans-serif;
+	background-color: var(--united-nations-blue) !important;
+	margin: 0 20px 0 20px;
+	padding: 12px;
+}
+
+#addRemoveDays button:hover {
+	background-color: var(--darker-blue) !important;
+}
+
+#addButtons {
+	margin: 20px 0 10px 0;
+	display: flex;
+	justify-content: flex-start;
+}
+
+#addButtons button {
+	background-color: var(--united-nations-blue) !important;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 20px;
+}
+
+#addButtons button:hover {
+	background-color: var(--darker-blue) !important;
+}
+
+#uploadCsvMessage {
+	margin: 0 20px 0 20px;	
+}
+
+.modal-body .form-group {
+	margin: 10px;
+}
+
+.modal-body .form-group label {
+	padding: 8px;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+}
+
+#uploadCsvForm button {
+	background-color: var(--united-nations-blue) !important;
+}
+
+#uploadCsvForm button:hover {
+	background-color: var(--darker-blue) !important;
+}
+
+.bootstrapTable {
+	padding: 25px;
+	height: 500px;
+	overflow-y: auto;
+}
+
+tbody button {
+	background-color: var(--united-nations-blue) !important;
+	color: white !important;
+	border: none !important;
+	outline: none !important;
+   	box-shadow: none;
+   	padding: 8px;
+   	border-radius: 10px;
+   	font-family: 'Raleway', sans-serif;
+   	cursor: pointer;
+}
+
+tbody button:hover {
+	background-color: var(--darker-blue) !important;
+}
+
+#confirmRemoveStock h4 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-brand {
+		font-size: 22px !important;
+	}
+	
+	.nav-item span, .nav-item a, #logout_button {
+	  font-size: 18px;
+	}
+	
+	#addButtons {
+		justify-content: space-around; 
+	}
+}
+
+/* CSS for phone */
+@media screen and (max-width: 576px) {
+	.navbar-brand {
+		font-size: 20px !important;
+	}
+	
+	.nav-item span, .nav-item a, #logout_button {
+	  font-size: 14px;
+	}
+	
+	.graph {
+		height: 400px;
+	}
+	
+	#addRemoveDays button {
+		padding: 10px;
+	}
+	
+	#addButtons button, #removeStockButton {
+		font-size: 14px;
+		margin-left: 16px;
+	}
+	
+	.bootstrapTable {
+		padding: 15px;
+		margin: 0px;
+		height: 400px;
+		overflow-y: auto;
+	}
+
+	.tableHeading {
+		font-size: 20px;
+	}
+	
+	#portfolioTable th, #portfolioTable td {
+		font-size: 14px;
+	}
+	
+	tbody button {
+		font-size: 14px;
+	}
+}
+
+
+
