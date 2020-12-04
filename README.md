@@ -3,19 +3,19 @@ A look into some projects I have done
 
 <strong>Artificial Intelligence Projects - Spring 2020</strong>
 <br/>
-Project 1: A* search with perfect information <br/>
-Project 2: Minimax with alpha-beta pruning; adversarial search; decision making under uncertainty<br/>
-Project 3: Markov Decision Process<br/>
+<strong>Project 1:</strong> A* search with perfect information <br/>
+<strong>Project 2:</strong> Minimax with alpha-beta pruning; adversarial search; decision making under uncertainty<br/>
+<strong>Project 3:</strong> Markov Decision Process<br/>
 All in Java
 
 
 <strong>Java/Web Development Projects CSCI 201 - Fall 2019</strong><br/>
 My intro to full stack web development. My intro to Java Servlets.<br/>
 Object-oriented paradigm for programming-in-the-large in Java; writing sophisticated concurrent applications with animation and graphic user interfaces.<br/>
-Project 1: Parsing files<br/>
-Project 2: Parsing JSON file (Google Books API); highlighting front end/client side; HTML/CSS/JavaScript<br/>
-Project 3: Intro to SQL; loading, processing, extracting Data from Google Cloud SQL. Intro to Servlets. Continuation of Project 2.<br/>
-Project 4:  Multithreading; Network Programming; Socket Programming; Client/Server Hangman game<br/>
+<strong>Project 1:</strong> Parsing files<br/>
+<strong>Project 2:</strong> Parsing JSON file (Google Books API); highlighting front end/client side; HTML/CSS/JavaScript<br/>
+<strong>Project 3:</strong> Intro to SQL; loading, processing, extracting Data from Google Cloud SQL. Intro to Servlets. Continuation of Project 2.<br/>
+<strong>Project 4:</strong>  Multithreading; Network Programming; Socket Programming; Client/Server Hangman game<br/>
 
 
 <strong>Data Structures and Object Oriented Design - Spring 2019</strong><br/>
