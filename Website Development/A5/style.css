@@ -1,0 +1,38 @@
+.movieImage .just-hover{
+	position:absolute;
+	top: 0;
+	padding-top:5px;
+	background-color: black;
+	color:white;
+	width: 100%;
+	height: 100%;
+	visibility: hidden
+}
+#outputs{
+	font-size: 10px;
+}
+.movieImage:hover .just-hover{
+	visibility: visible;
+	opacity: 0.7;
+}
+.movieImage{
+	position: relative;
+}
+#outputs{
+	font-size: 14px;
+}
+
+/* 768 or larger */
+@media (min-width: 767px) {
+	#outputs{
+	font-size: 15px;
+}
+	
+
+}
+@media (min-width: 991px) {
+	#outputs{
+	font-size: 15px;
+}
+
+}

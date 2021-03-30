@@ -1,0 +1,18 @@
+#TodoBox{
+	width:400px;
+	border: 1px solid black;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+#topTemp{
+	width:800px;
+	border: 1px solid black;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+
+
+}

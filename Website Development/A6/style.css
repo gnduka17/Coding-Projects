@@ -1,0 +1,84 @@
+#TodoBox{
+	width:410px;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	font-family: "IndieFlower";
+	box-shadow: 10px 5px 5px #CBCBCB;
+	
+	
+}
+#topTemp{
+	width:800px;
+	border: 1px solid black;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 0;
+	background-color: #9CD4F1;
+	font-family: "IndieFlower";
+}
+#header{
+	background-color: #D7A5F1;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	width:400px;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px; 
+	font-family: "IndieFlower";
+	box-shadow: 10px 5px 5px #CBCBCB;
+}
+body{
+	background-color: #F7F5CD;
+	margin: 0;
+	padding: 0;
+}
+#container{
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+li:hover{
+	background-color: #DADADA;
+}
+.fa-square{
+	margin:0;
+	padding: 0;
+}
+@font-face {
+	font-family: "IndieFlower";
+	src: url("IndieFlower.ttf");
+}
+#toDoInput{
+	font-family: "IndieFlower";
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width:402px;
+}
+#cities{
+	font-family: "IndieFlower";
+}
+.fa-plus{
+	float: right;
+}
+
+.striked {
+	color: grey;
+	text-decoration: line-through;
+}

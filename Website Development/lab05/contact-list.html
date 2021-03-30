@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact List using Objects</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-4">
+			<h1 class="col-12">Contacts</h1>
+			<h2 class="col-12 mt-4">New Contact</h2>
+			<div class="col-12 mt-4">
+				<form id="contact-form">
+					<div class="form-row">
+
+						<div class="col-12 mt-2 col-sm-3 mt-sm-0">
+							<label for="fname" class="sr-only">First Name:</label>
+							<input type="text" class="form-control" id="fname" placeholder="First Name">
+						</div> <!-- .col -->
+
+						<div class="col-12 mt-2 col-sm-3 mt-sm-0">
+							<label for="lname" class="sr-only">Last Name:</label>
+							<input type="text" class="form-control" id="lname" placeholder="Last Name">
+						</div> <!-- .col -->
+
+						<div class="col-12 mt-2 col-sm-3 mt-sm-0">
+							<label for="email" class="sr-only">Email:</label>
+							<input type="text" class="form-control" id="email" placeholder="Email">
+						</div> <!-- .col -->
+
+						<div class="col-12 mt-2 col-sm-auto mt-sm-0">
+							<button role="button" type="submit" class="btn btn-primary">Add</button>
+						</div> <!-- .col -->
+
+					</div> <!-- .form-row -->
+				</form>
+			</div> <!-- .col -->
+		</div> <!-- .row -->
+
+		<div class="row">
+			<h2 class="col-12 mt-4">List:</h2>
+		</div> <!-- .row -->
+
+		<div class="row">
+			<div class="col-12 mt-3">
+				<button id="show-three-btn" class="btn btn-outline-primary mb-3">Show First Three Contacts</button>
+				<button id="show-all-btn" class="btn btn-outline-primary mb-3">Show All Contacts</button>
+				<button id="delete-btn" class="btn btn-outline-danger mb-3">Delete All</button>
+			</div> <!-- .col -->
+		</div><!-- .row -->
+
+		<div class="row">
+			<div class="col-12 mt-3">
+				<ul class="list-group" id="contact-list">
+					<!-- Below is the template that all contacts should follow -->
+					<!-- <li class="list-group-item">Trojan, Tommy (ttrojan@usc.edu)</li> -->
+				</ul>
+			</div> <!-- .col -->
+
+		</div> <!-- .row -->
+	</div> <!-- .container -->
+
+	<script>
+		// Use this array to keep track of contacts
+		let contacts = [];
+		document.querySelector("#contact-form").onsubmit = function(){
+			event.preventDefault();
+			let userFname = document.querySelector("#fname").value.trim();
+			let userLname = document.querySelector("#lname").value.trim();
+			let useremail = document.querySelector("#email").value.trim();
+
+			if(userFname.length > 0 && userLname.length > 0 && useremail.length >0){
+				let person = {
+					firstName: userFname,
+					lastName: userLname, 
+					email: useremail
+				};
+				contacts.push(person);
+			}
+			document.querySelector("#fname").value = "";
+			document.querySelector("#lname").value = "";
+			document.querySelector("#email").value= "";
+		}
+		document.querySelector("#show-all-btn").onclick = function(){
+			let listNames = document.querySelector("#contact-list");
+			while( listNames.hasChildNodes() ) {
+				listNames.removeChild(listNames.lastChild);
+			}
+			for(let i = 0; i<contacts.length; i++){
+				let pElement = document.createElement("li");
+				pElement.classList.add("list-group-item");
+				pElement.innerHTML = contacts[i].lastName + ", " + contacts[i].firstName + " ("+ contacts[i].email + ")";
+				listNames.appendChild(pElement);
+			}
+		}
+		document.querySelector("#show-three-btn").onclick = function(){
+			let listNames = document.querySelector("#contact-list");
+			while( listNames.hasChildNodes() ) {
+				listNames.removeChild(listNames.lastChild);
+			}
+			if(contacts.length>=3){
+				for(let i = 0; i<3; i++){
+					let pElement = document.createElement("li");
+					pElement.classList.add("list-group-item");
+					pElement.innerHTML = contacts[i].lastName + ", " + contacts[i].firstName + " ("+ contacts[i].email + ")";
+					listNames.appendChild(pElement);
+				}
+			}
+			else{
+				for(let i = 0; i<contacts.length; i++){
+					let pElement = document.createElement("li");
+					pElement.classList.add("list-group-item");
+					pElement.innerHTML = contacts[i].lastName + ", " + contacts[i].firstName + " ("+ contacts[i].email + ")";
+					listNames.appendChild(pElement);
+				}
+			}
+		}
+		document.querySelector("#delete-btn").onclick = function(){
+			let listNames = document.querySelector("#contact-list");
+			while( listNames.hasChildNodes() ) {
+				listNames.removeChild(listNames.lastChild);
+			}
+			contacts = [];
+
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fitness Kits</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body, html{
+			margin:0;
+			padding:0;
+			background-color: #1A1A1A;
+		}
+
+		#header h1{
+			font-family: "Horta";
+			color: #008ab4;
+			text-align: center;
+			background-color: black;
+			margin: 0;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		h2{
+			color: #008ab4;
+			margin-left: 10px;
+		}
+		#rightTitle{
+			display: none;
+		}
+
+		#productimg{
+			max-width: 100%;
+    		height: auto;
+    		display: block;
+    		
+		}
+		#productimgdiv{
+			margin-left: 10px;
+    		margin-right: 10px;		
+
+		}
+		#promo{
+			background-color: #008ab4;
+			width:80%;
+			padding: 5px;
+			margin: 5px;
+			margin-top: 10px;
+			margin-right: auto;
+			margin-left: auto;
+
+		}
+		#promo p{
+			color:white;
+			font-size: 110%;
+			text-align: center;
+			
+		}
+		#review{
+			width:100px;
+
+		}
+		#productDesc{
+			color: white;
+			padding-right:12px;
+
+		}
+		.text{
+			color: #008ab4;
+			margin-left: 10px;
+			font-size: 20px;
+		}
+		.prodName{
+			display: none;
+			position: absolute;
+
+
+		}
+		.relatedimg{
+			max-width: 100%;
+    		height: auto;
+    		display: block;
+		}
+		.relateimgdiv{
+			border-radius: 1px;
+			border-color: #008ab4;
+			border-style: solid;
+			overflow: hidden;
+			background-color: white;
+			margin: 10px;
+			margin-left: 80px;
+			margin-right: 80px;
+		}
+		.relateimgdiv:hover{
+			background-color: black;
+		}
+		.relateimgdiv:hover img{
+			opacity: 0.2;
+		}
+		.relateimgdiv:hover .prodName{
+			text-align: center;
+			color: white;
+    		padding-top: 10%;
+    		font-size: 20px;
+			display: block;
+			text-align: center;
+			margin-left: 10px;
+		}
+
+		/* 768 or larger */
+		@media (min-width: 767px) {
+			#header h1{
+				font-size: 60px;
+				margin: 0;
+			}
+			#productimg{
+				margin-top: 10px;
+				max-width: 100%;
+	    		height: auto;
+	    		display: block;
+
+
+			}
+			.relateimgdiv{
+				margin:40px;
+			}
+			.relatedimg{
+				max-width: 100%;
+	    		height: auto;
+	    		display: block;
+			}
+			.rightcolumn{
+				float: left;
+				width: 50%;
+			}
+			.leftcolumn{
+				float: left;
+				width: 50%;
+			}
+			.rightcolumnimg{
+				float: left;
+				width: 50%;
+			}
+			.leftcolumnimg{
+				float: left;
+				width: 50%;	
+			}
+			.clearfloat{
+				clear:both;
+			}
+			#rightTitle{
+				display: block;
+
+			}
+			#leftTitle{
+				display: none;
+
+			}
+		}
+		@media (min-width: 991px) {
+			#header h1{
+				font-size: 80px;
+				margin: 0;
+			}
+			#container{
+				max-width: 1000px;
+				background-color: #1A1A1A;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			body{
+				background-color: #1A1A1A;
+			}
+			.relateimgdiv{
+				float: left;
+				width:32%;
+				
+			}
+		
+			#rowPics{
+				clear: both;
+				display: table;
+				width: 100%;
+
+			}
+	
+			
+		}
+		@font-face {
+			font-family: "Horta";
+			src: url("Horta.otf");
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- my store name -->
+	<div id="header">
+		<h1>Fitchi</h1>
+	</div>
+
+	<!-- product item -->
+	<div id="container">
+		<!-- display name -->
+		<div id="leftTitle">
+			<h2>Deluxe Fitness Kit</h2>
+		</div>
+
+		<div class="leftcolumn">
+			<!-- image of item -->
+			<div id="productimgdiv">
+				<img id="productimg" src="images/DELUXEOUT.jpg" alt="fitness kit image">
+			</div>
+
+			<!-- promo box -->
+			<div id="promo">
+				<p>Use promo code FITNESS20 to get 20% off!</p>
+			</div>
+		</div>
+		<div class="rightcolumn">
+			<div id="rightTitle">
+				<h2>Deluxe Fitness Kit</h2>
+			</div>
+			<!-- price and reviews -->
+			<p class="text">Price: $89.99</p>
+			<div class="text">
+				<img id="review" src="images/5star.png" alt="5 star review"> 15,000 Reviews
+
+			</div>
+
+			<!-- product description -->
+			<div id="productDesc">
+				<ul>
+					<li>Fitchi Fitness Kit is equipped with 10 lbs/15 lbs/20 lbs Resistance Bands, Jump Rope, Hip Resistance Band, Yoga Strap, and 3-section Bar, Gym Bag, Paper Workout Guides, which have different training levels for full-body muscle exercise. We will offer various exercise Videos that can meet the needs of fitness professionals with different experiences and help you build your daily workout routines.
+					</li>
+					
+					<li> Exercise whenever and whereever you want: Fitchi workout equipment is equipped with a large-capacity backpack bag. Our Pilates set can sculpt and strengthen all muscle groups and burn your calories when you are at the home, office, outdoor, Gym studio, hotel during business trips.
+					</li>
+					
+					<li> A comprehensive fitness system sculpts all muscle groups: There are so many home fitness systems on the market that it can be difficult to pick. Many of them are poorly designed and only provide meager results. If you’re serious about getting in shape, you need a serious program that will give you quick, dramatic results. It combines in one package all fitness attachments for the upper body, core, glutes and legs, strength. It’s the most comprehensive home fitness package available.
+					</li>
+					
+					<li>Gifts to impress your favorite friends and families: If you want to impress your friends or family members. Trust me. Fitchi Fitness Kit will never let you disappointed. To help you with your gifting search, we've rounded up an array of the best and fitness equipment on the market and combine it together. let bring an amazing fitness gift set for your loved one. 
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+		<div class="clearfloat"></div>
+	
+
+		<!-- related products -->
+		<h2>Related Products</h2>
+		<div id="rowPics">
+			<div class="leftcolumnimg">
+				
+					<div class="relateimgdiv">
+						<div class="prodName"> Mini Kit</div>
+						<img class="relatedimg" src="images/mini2.jpg" alt="mini kit">
+						
+					</div>
+				
+				
+					<div class="relateimgdiv">
+						<div class="prodName">Regular Kit</div>
+						<img class="relatedimg" src="images/regular.jpg" alt="regular kit image">
+						
+					</div>
+				
+			</div>
+			<div class="rightcolumnimg">
+				
+					<div class="relateimgdiv">
+						<div class="prodName">Deluxe Kit</div>
+						<img class= "relatedimg" src="images/deluxe.jpg" alt="deluxe kit">
+						
+					</div>
+			
+
+				
+					<div class="relateimgdiv">
+						<div class="prodName">Yoga Mat</div>
+						<img class= "relatedimg" src="images/yoga.jpg" alt="yoga mat">
+						
+					</div>
+				
+			</div>
+		</div>
+		<div class="clearfloat"></div>
+	</div>
+</body>
+</html>

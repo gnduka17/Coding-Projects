@@ -1,0 +1,58 @@
+
+#brand {
+	font-family: "boldedFont";
+}
+#header{
+	height: 330px;
+	background-image: url("images/colormakeup.jpg");
+	background-size: cover;
+}
+.active{
+	color:#A92828 !important;
+}
+.navbar{
+	background-color: orange !important;
+}
+.row{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.img-brand{
+	width:100%;
+}
+.words-home{
+	width:100%;
+}
+.img-div{
+	width:100%;
+}
+.card-img{
+	height:200px !important;
+}
+.workers{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* 768 or larger */
+@media (min-width: 767px) {
+	.words-home{
+	padding-top: 90px;
+	}
+
+	#test{
+	order:5;
+	}
+}
+@media (min-width: 991px) {
+	#test{
+	order:5;
+	}
+	.words-home{
+		padding-top: 190px;
+	}
+}
+@font-face {
+	font-family: "boldedFont";
+	src: url("boldedFont.ttf");
+}
