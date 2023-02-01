@@ -1,6 +1,25 @@
 # Coding-Projects
 A look into some projects I have done
 
+<strong>Full Stack Recipe Sharing Web Application  - Spring 2021</strong>
+<br/>
+A full-stack recipe web application providing users with an easy-to-use platform to access a variety of recipes from different cuisines and cultures and the ability to add and share their own recipes, and favorite their favorite ones.
+<br/>
+HTML/CSS, PHP, Javascript
+
+<strong>Computer Systems CSCI 356  - Fall 2020</strong>
+<br/>
+Coding assignments/projects from my Computer Systems class. 
+<br/>
+x86 assembly, buffer overflow attacks, memory hierarchies, caches, virtual memory, out-of-order execution, along with compilation and system software concepts such as linking and heap management.
+<br/>
+
+<strong>Terraform Scripts - Web Application and API Protection(WAAP) - Fall 2022</strong>
+<br/>
+Wrote TF scripts to automate the deployment of WAAP
+<br/>
+
+
 <strong>Artificial Intelligence Projects - Spring 2020</strong>
 <br/>
 <strong>Project 1:</strong> A* search with perfect information <br/>
