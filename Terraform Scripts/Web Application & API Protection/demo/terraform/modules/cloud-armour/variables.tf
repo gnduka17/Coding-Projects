@@ -1,1 +1,1 @@
-
+variable "project_id" {}
