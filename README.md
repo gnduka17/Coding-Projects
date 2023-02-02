@@ -1,7 +1,7 @@
 # Coding-Projects
 A look into some projects I have done
 
-<br/><strong><u>********Web/IOS Applications Projects********</u></strong><br/>
+<br/><strong>~~~~~~~~Web/IOS Applications Projects~~~~~~~~</strong><br/>
 
 <strong>Full Stack Recipe Sharing Web Application  - Spring 2021</strong>
 <br/>
@@ -36,7 +36,7 @@ MVC; UI Testing<br/>
 Final Project created a Birthday Reminder App utilizing Google Sign In API, Apple Contacts, and Apple Calendar<br/>
 
 
-<br/><strong><u>********Other Projects********</u></strong><br/>
+<br/><strong>~~~~~~~~Other Projects~~~~~~~~</strong><br/>
 
 
 <strong>Terraform Scripts - Web Application and API Protection(WAAP) - Fall 2022</strong>
