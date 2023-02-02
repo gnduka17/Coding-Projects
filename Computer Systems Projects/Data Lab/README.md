@@ -1,1 +1,2 @@
 
+Bitwise operations in C, such as bitwise AND (&), OR (|), NOT (~) and right/left shift (>> / <<). The goal is to become familiar with the bit-level<br/> representation of integers and with the corner cases of their operations (e.g., two’s complement encoding, signed/unsigned overflow). The assignment also<br/> requires the manipulation of IEEE 754 floating point variables (float and double) at the bit level.
